@@ -1,0 +1,26 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Ensure that all Python files use LF line endings
+*.py text eol=lf
+
+# Ensure that Markdown files use LF line endings
+*.md text eol=lf
+
+# Treat Jupyter Notebook files as binary
+*.ipynb binary
+
+# Handle image files
+*.jpg binary
+*.png binary
+*.gif binary
+
+# Handle CSV files as text with LF line endings
+*.csv text eol=lf
+
+# Handle JSON files as text with LF line endings
+*.json text eol=lf
+
+# Handle YAML files as text with LF line endings
+*.yaml text eol=lf
+*.yml text eol=lf
